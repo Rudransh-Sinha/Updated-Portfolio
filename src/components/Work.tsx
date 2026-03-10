@@ -53,19 +53,25 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
+          {[
+            { name: "EduSlide AI", category: "AI Productivity Tool", tools: "React, Node.js, AI APIs, JavaScript" },
+            { name: "Hospital Management System", category: "Web Application", tools: "Next.js, Node.js, MySQL" },
+            { name: "AI Portfolio Builder", category: "Developer Tool", tools: "React, TypeScript, Next.js" },
+            { name: "AI Study Tool", category: "AI Education Tool", tools: "JavaScript, React, AI APIs" },
+            { name: "Developer Productivity Tools", category: "Automation Tools", tools: "Node.js, JavaScript" },
+            { name: "Personal Portfolio Website", category: "Web Development", tools: "React, TypeScript, Three.js" },
+          ].map((project, index) => (
             <div className="work-box" key={index}>
               <div className="work-info">
                 <div className="work-title">
                   <h3>0{index + 1}</h3>
-
                   <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
+                    <h4>{project.name}</h4>
+                    <p>{project.category}</p>
                   </div>
                 </div>
                 <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
+                <p>{project.tools}</p>
               </div>
               <WorkImage image="/images/placeholder.webp" alt="" />
             </div>
@@ -77,3 +83,4 @@ const Work = () => {
 };
 
 export default Work;
+
