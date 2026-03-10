@@ -60,27 +60,27 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="https://github.com" target="_blank">
+          <a href="https://github.com/nikhilxbuild" target="_blank">
             <FaGithub />
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com" target="_blank">
+          <a href="https://www.linkedin.com/in/nikhilxbuild" target="_blank">
             <FaLinkedinIn />
           </a>
         </span>
         <span>
-          <a href="https://x.com" target="_blank">
+          <a href="https://x.com/nikhilxbuild" target="_blank">
             <FaXTwitter />
           </a>
         </span>
         <span>
-          <a href="https://www.instagram.com" target="_blank">
+          <a href="https://www.instagram.com/nikhilxbuild" target="_blank">
             <FaInstagram />
           </a>
         </span>
       </div>
-      <a className="resume-button" href="#">
+      <a className="resume-button" href="https://drive.google.com/file/d/180S6jJtSMQEzL9YYa5eeXKbpFQmfOeuM/view" target="_blank">
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />
@@ -91,3 +91,4 @@ const SocialIcons = () => {
 };
 
 export default SocialIcons;
+
