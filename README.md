@@ -1,7 +1,6 @@
 # Rudransh Sinha - 3D Interactive Portfolio
 
 ![Portfolio Preview](./public/images/portfolio.png)
-*(Note: Please take a fresh screenshot of your running website, name it `portfolio.png`, and place it in the `public/images/` folder so it displays here!)*
 
 Welcome to the open-source repository for my personal 3D interactive portfolio. As a **Full-Stack Developer and AI Engineer**, I focus on building scalable, intelligent web solutions while delivering unparalleled, engaging user experiences. 
 

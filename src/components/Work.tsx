@@ -65,7 +65,7 @@ const Work = () => {
               name: "Portfolio Website",
               category: "Personal Branding / Web Development",
               tools: "HTML, CSS, JavaScript, React",
-              image: "/images/portfolio_ui.png"
+              image: "/images/portfolio.png"
             },
             {
               name: "Job Sim Dashboard",
